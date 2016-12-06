@@ -14,7 +14,8 @@ echo "
   \"timeout\": $GRID_TIMEOUT,
   \"browserTimeout\": $GRID_BROWSER_TIMEOUT,
   \"maxSession\": $GRID_MAX_SESSION,
-  \"unregisterIfStillDownAfter\": $GRID_UNREGISTER_IF_STILL_DOWN_AFTER
+  \"unregisterIfStillDownAfter\": $GRID_UNREGISTER_IF_STILL_DOWN_AFTER,
+  \"servlets\": [\"org.openqa.grid.web.servlet.custom.CustomServlet\"]
 }" 
 
 
